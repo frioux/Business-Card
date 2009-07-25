@@ -55,3 +55,4 @@ is $acronym->get_value(1), 'bar', 'values are set correctly';
 is $acronym->get_value(2), 'baz', 'values are set correctly';
 is $acronym->expand(), 'foo bar baz', 'acronym expands correctly';
 is $GAIM->expand(3), q{GNU's Not Unix's Not Unix Network Object Model Environment America On Line Instant Messenger}, 'complex expansion works correctly';
+dies_ok { $GAIM->expand('frew'); } 'Dies correctly for invalid expand value';
