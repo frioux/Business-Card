@@ -6,6 +6,7 @@ use Moose;
 use MooseX::AttributeHelpers;
 use Method::Signatures::Simple;
 use Acronym;
+use CLASS;
 
 use namespace::clean -except => 'meta';
 
@@ -84,6 +85,6 @@ method expand($name, $depth) {
    $self->names->{$name}->expand($depth);
 }
 
-__PACKAGE__->meta->make_immutable;
+CLASS->meta->make_immutable;
 
 'station';
