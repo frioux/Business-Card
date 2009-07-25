@@ -4,71 +4,85 @@ use warnings;
 use feature ':5.10';
 use Moose;
 use MooseX::AttributeHelpers;
+use Method::Signatures::Simple;
+use Acronym;
 
 use namespace::clean -except => 'meta';
 
-my $fiSMBoC = {
-   string => q{%s is Station's Most Bodacious Creation},
-   values => [],
-};
-
-my $RESEARCH = {
-   string => 'Robots Eagerly Sailing Epic Artificial Rhythmic Cyclical Homonyms',
-   values => []
-};
-my $IMAGINATIVE = {
-   string => 'Insane Mimicries of Amazingly Gorgeous, Incomplete Networks, Axiomatic Theorems, and Immortally Vivacious Ecstasy',
-   values => []
-};
-my $ORGANIC = {
-   string => 'Original Renditions of Genetic Art Naturally Increasing in Complexity',
-   values => [],
-};
-my $UNIFICATIONS = {
-   string => 'Unions Normally Identified From Initial Characters; Aesthetically Tailored to Infer Other Notions Subconsciously',
-   values => [],
-};
-my $fRIOUX = {
-   string => q{%s %ses %s %s %s like XUOIRf},
-   values => [ $fiSMBoC, $RESEARCH, $IMAGINATIVE, $ORGANIC, $UNIFICATIONS, ]
-};
-my $fRUE = {
-   string => q{%s's Rectitude is Underpinned by Equivalence},
-   values => [ $fRIOUX ],
- };
-my $fROOH = {
-   string => q{%s: Robotic Ominous Ossified Herald},
-   values => [ $fRUE ],
- };
-my $fREW = {
-   string => q{%s Represents Encephelon Welkin},
-   values => [ $fROOH ],
- };
-push @{$fiSMBoC->{values}}, $fREW;
-
 sub names_builder {
+   my $fiSMBoC = Acronym->new(
+      abbreviation => 'fiSMBoC',
+      format       => q{%s %s %s's %s %s %s},
+      values       => [qw{is Station Most Bodacious Creation}],
+   );
+
+   my $RESEARCH = Acronym->new(
+      abbreviation => 'RESEARCH',
+      format => '%s %s %s %s %s %s %s %s',
+      values => [qw{Robots Eagerly Sailing Epic Artificial Rhythmic
+	 Cyclical Homonyms}],
+   );
+   my $IMAGINATIVE = Acronym->new(
+      abbreviation => 'IMAGINATIVE',
+      format => '%s %s of %s %s, %s %s, %s %s, and %s %s %s',
+      values => [qw{Insane Mimicries Amazingly Gorgeous Incomplete
+	 Networks Axiomatic Theorems Immortally Vivacious Ecstasy}],
+   );
+   my $ORGANIC = Acronym->new(
+      abbreviation => 'ORGANIC',
+      format => '%s %s of %s %s %s %s in %s',
+      values => [qw{Original Renditions Genetic Art Naturally
+	 Increasing Complexity}],
+   );
+   my $UNIFICATIONS = Acronym->new(
+      abbreviation => 'UNIFICATIONS',
+      format => '%s %s %s %s %s %s; %s %s to %s %s %s %s',
+      values => [qw{Unions Normally Identified From Initial Characters
+	 Aesthetically Tailored Infer Other Notions Subconsciously}],
+   );
+   my $fRIOUX = Acronym->new(
+      abbreviation => 'fRIOUX',
+      format => '%s %ses %s %s %s like %s',
+      values => [ $fiSMBoC, $RESEARCH, $IMAGINATIVE, $ORGANIC, $UNIFICATIONS, 'XUOIRf']
+   );
+   my $fRUE = Acronym->new(
+      abbreviation => 'fRUE',
+      format => q{%s's %s is %s by %s},
+      values => [ $fRIOUX, qw{Rectitude Underpinned Equivalence} ],
+   );
+   my $fROOH = Acronym->new(
+      abbreviation => 'fROOH',
+      format => '%s: %s %s %s %s',
+      values => [ $fRUE, qw{Robotic Ominous Ossified Herald}],
+   );
+   my $fREW = Acronym->new(
+      abbreviation => 'fREW',
+      format => q{%s %s %s %s},
+      values => [ $fROOH, qw{Represents Encephelon Welkin} ],
+   );
+   unshift @{$fiSMBoC->{values}}, $fREW;
+
    return {
       fiSMBoC => $fiSMBoC,
-      fRUE => $fRUE,
-      fREW => $fREW,
-      fROOH => $fROOH,
-      fRIOUX => $fRIOUX,
+      fRUE    => $fRUE,
+      fREW    => $fREW,
+      fROOH   => $fROOH,
+      fRIOUX  => $fRIOUX,
    };
 }
 
-
-
 has names => (
    is     => 'ro',
-   isa    => 'HashRef',
+   isa    => 'HashRef[Acronym]',
    builder => 'names_builder',
    lazy    => 1,
-   provides  => {
-      exists    => 'exists_in_mapping',
-      keys      => 'ids_in_mapping',
-      get       => 'get_mapping',
-   },
 );
+
+method expand($name, $depth) {
+   $name ||= 'fREW';
+   $depth //= 0;
+   $self->names->{$name}->expand($depth);
+}
 
 __PACKAGE__->meta->make_immutable;
 
