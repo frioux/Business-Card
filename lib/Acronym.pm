@@ -1,39 +1,33 @@
-package Acronym;
-use Moose;
+use MooseX::Declare;
 use MooseX::AttributeHelpers;
-use namespace::clean except => 'meta';
-use CLASS;
-use Method::Signatures::Simple;
 
-has $_ => (
-   is       => 'ro',
-   isa      => 'Str',
-   required => 1,
-) for (qw{format abbreviation});
+class Acronym {
+   has [qw{format abbreviation}] => (
+      is       => 'ro',
+      isa      => 'Str',
+      required => 1,
+   );
 
-has values => (
-   is       => 'ro',
-   isa      => 'ArrayRef[Acronym|Str]',
-   default  => sub { [] },
-   metaclass => 'Collection::Array',
-   provides => {
-      get => 'get_value',
+   has values => (
+      is       => 'ro',
+      isa      => 'ArrayRef[Acronym|Str]',
+      default  => sub { [] },
+      metaclass => 'Collection::Array',
+      provides => {
+	 get => 'get_value',
+      }
+   );
+
+   method expand(Int $depth = 1) {
+      return $self->abbreviation
+	 if $depth < 0;
+
+      my @values = map {
+	 ( ref $_ )
+	    ? $_->expand($depth - 1)
+	    : $_;
+      } @{$self->values};
+      return sprintf $self->format, @values;
    }
-);
-
-method expand($depth) {
-   $depth //= 1;
-   return $self->abbreviation
-      if $depth < 0;
-
-   my @values = map {
-      ( ref $_ )
-         ? $_->expand($depth - 1)
-         : $_;
-   } @{$self->values};
-   return sprintf $self->format, @values;
 }
 
-CLASS->meta->make_immutable;
-
-1;

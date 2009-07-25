@@ -10,6 +10,8 @@ use CLASS;
 
 use namespace::clean -except => 'meta';
 
+with 'BusinessCard';
+
 sub names_builder {
    my $fiSMBoC = Acronym->new(
       abbreviation => 'fiSMBoC',
@@ -73,16 +75,27 @@ sub names_builder {
 }
 
 has names => (
+   metaclass => 'Collection::Hash',
    is     => 'ro',
    isa    => 'HashRef[Acronym]',
    builder => 'names_builder',
    lazy    => 1,
+   provides  => {
+      defined => 'has_name',
+   }
 );
 
 method expand($name, $depth) {
    $name ||= 'fREW';
    $depth //= 0;
+   die "$name is not one of my names!" if !$self->has_name($name);
    $self->names->{$name}->expand($depth);
+}
+
+method BUILD {
+   $self->job('Programmer');
+   my $email = reverse 'moc.liamg@xuoirf';
+   $self->email($email);
 }
 
 CLASS->meta->make_immutable;

@@ -22,3 +22,6 @@ is $fREW->expand('fRIOUX', 1), q{fREW is Station's Most Bodacious Creation Robot
 is $fREW->expand('fiSMBoC'), q{fREW is Station's Most Bodacious Creation}, 'fiSMBoC expands correctly';
 
 is $fREW->expand, $fREW->expand('fREW', 0), 'expand defaults correctly';
+is $fREW->job, 'Programmer', 'Job set correctly';
+my $email = reverse $fREW->email;
+is $email, 'moc.liamg@xuoirf', 'Email set correctly';
