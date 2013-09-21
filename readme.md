@@ -57,7 +57,7 @@ conferences ([here are](www.presentingperl.org/yn2010/)
 Micro Technology Services Incorporated  
 Software Engineer/Architect  
 Aug 2008 - Current  
-`perl apache mod-perl sql-server dbix-class catalyst cgi-application extjs`
+`Perl Apache mod_perl SQLServer DBIx::Class Catalyst CGI::Application ExtJS`
 
 * Helped to create turnkey installer/updater for software product to reduce engineer
 time required to deploy software to hundreds of customers servers.
@@ -74,7 +74,7 @@ issues](http://stackoverflow.com/questions/188896/why-does-iis-crash-when-i-prin
 Loma de Luz  
 Programmer  
 May 2007 - Aug 2007  
-`c#`
+`C#`
 
 * Initiated and designed a system to track inventory and inventory history.
 * Basic IT support.  
@@ -82,7 +82,7 @@ May 2007 - Aug 2007
 Sterling Commerce  
 Programmer  
 May 2006 - Aug 2006  
-java c# connectdirect
+`Java C# Connect:Direct`
 
 * Changed Java client to store configuration as XML instead of serialized
 Java class.
@@ -93,7 +93,6 @@ Java class.
 LeTourneau University  
 B.S. Computer Science and Math  
 2004 - 2008  
-`regular-expressions object-orientation project-management`
 
 * Student Senator, and later President Pro Tempore
 * President of TEA (TEA Enthusiasts Association)
@@ -102,9 +101,9 @@ B.S. Computer Science and Math
 
 # Tags
 
-*favorites* `perl catalyst dbix-class moose javascript`  
-*likes* `extjs ruby`  
-*dislikes* `java c# c c++`
+*favorites* `Perl Catalyst DBIx::Class Moose JavaScript`  
+*likes* `ExtJS Ruby`  
+*dislikes* `Java C# C C++`
 
 ## Projects and Links
 
