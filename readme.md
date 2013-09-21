@@ -59,17 +59,20 @@ Software Engineer/Architect
 Aug 2008 - Current  
 `Perl Apache mod_perl SQLServer DBIx::Class Catalyst CGI::Application ExtJS`
 
+* Took lead role of significant project and implemented a minimalist agile
+  workflow leveraging DVCS, an issue tracker, and a QA cycle leading to much
+  more robust software.
 * Helped to create turnkey installer/updater for software product to reduce engineer
-time required to deploy software to hundreds of customers servers.
+  time required to deploy software to hundreds of customers servers.
 * Initiated and helped switch to DBIx::Class to promote code reuse and
-reduce dependence on SQL Server
+  reduce dependence on SQL Server
 * Initiated and helped switch to Catalyst from CGI::Application to
-increase overall organization of projects in new projects.
+  increase overall organization of projects in new projects.
 * Initiated and helped switch to CGI::Application from cgi scripts to
-encourage modularity and reuse in older projects.
+  encourage modularity and reuse in older projects.
 * Initiated and switched from IIS to
-Apache because of [serious perl interop
-issues](http://stackoverflow.com/questions/188896/why-does-iis-crash-when-i-print-to-stderr-in-perl)
+  Apache because of [serious perl interop
+  issues](http://stackoverflow.com/questions/188896/why-does-iis-crash-when-i-print-to-stderr-in-perl)
 
 Loma de Luz  
 Programmer  
@@ -85,7 +88,7 @@ May 2006 - Aug 2006
 `Java C# Connect:Direct`
 
 * Changed Java client to store configuration as XML instead of serialized
-Java class.
+  Java class.
 * Created .NET configuration GUI.
 
 ## Education
