@@ -120,6 +120,8 @@ code](https://github.com/frioux/autopot) that may
 [never actually get released](https://github.com/frioux/teatime), but still may be [worth looking
 at](https://github.com/frioux/drinkup)
 
-[blog](http://blog.afoolishmanifesto.com): writings, almost exclusively
-technical.
+[blog](http://blog.afoolishmanifesto.com): writings,
+[almost](http://blog.afoolishmanifesto.com/archives/1828)
+[exclusively](http://blog.afoolishmanifesto.com/archives/1873)
+[technical](http://blog.afoolishmanifesto.com/archives/1303).
 
