@@ -22,7 +22,7 @@ Javascript, HTML, CSS, and complex database interactions.
 At Micro Technology Services Incorporated I've gotten involved in using
 more complex Perl frameworks, like the Catalyst web framework and the
 DBIx::Class ORM. Both of those I've used extensively to the point where
-I have contributed code to both.  I convinced the company to start using
+I have contributed code to both.  I convinced MicroTech to start using
 version control with subversion and helped the switch to git when it
 was sufficiently mature for professional usage.
 
