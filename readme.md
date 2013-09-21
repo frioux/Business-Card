@@ -65,14 +65,14 @@ Aug 2008 - Current
 * Helped to create turnkey installer/updater for software product to reduce engineer
   time required to deploy software to hundreds of customers servers.
 * Initiated and helped switch to DBIx::Class to promote code reuse and
-  reduce dependence on SQL Server
+  reduce dependence on SQL Server.
 * Initiated and helped switch to Catalyst from CGI::Application to
   increase overall organization of projects in new projects.
 * Initiated and helped switch to CGI::Application from cgi scripts to
   encourage modularity and reuse in older projects.
 * Initiated and switched from IIS to
   Apache because of [serious perl interop
-  issues](http://stackoverflow.com/questions/188896/why-does-iis-crash-when-i-print-to-stderr-in-perl)
+  issues](http://stackoverflow.com/questions/188896/why-does-iis-crash-when-i-print-to-stderr-in-perl).
 
 Loma de Luz  
 Programmer  
@@ -80,7 +80,7 @@ May 2007 - Aug 2007
 `C#`
 
 * Initiated and designed a system to track inventory and inventory history.
-* Basic IT support.  
+* Performed basic IT support  
 
 Sterling Commerce  
 Programmer  
@@ -100,7 +100,7 @@ B.S. Computer Science and Math
 * Student Senator, and later President Pro Tempore
 * President of TEA (TEA Enthusiasts Association)
 * President of Math Club (We won first place in TX competition)
-* Worked on, and later headed up the TOME project.
+* Worked on and later headed up the TOME project.
 
 # Tags
 
@@ -111,10 +111,12 @@ B.S. Computer Science and Math
 ## Projects and Links
 
 [CPAN modules](http://search.cpan.org/~frew/): well tested, well
-documented, released code.
+documented, released code
 
-[github code](http://github.com/frioux): experimental modules that may
-never actually get released, but still may be worth looking at.
+[github code](http://github.com/frioux): [experimental
+code](https://github.com/frioux/autopot) that may
+[never actually get released](https://github.com/frioux/teatime), but still may be [worth looking
+at](https://github.com/frioux/drinkup)
 
 [blog](http://blog.afoolishmanifesto.com): writings, almost exclusively
 technical.
