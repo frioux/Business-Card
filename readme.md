@@ -4,8 +4,9 @@ I love programming. I mostly do web development and have released numerous
 open source [modules](http://search.cpan.org/~frew) to make developing
 web apps easier.
 
-I started programming QBasic for fun in middle school, and quickly got
-into using [unix](http://en.wikipedia.org/wiki/Super_Dimension_Fortress)
+I started programming QBasic for fun
+in middle school, and quickly got into using
+[unix](https://en.wikipedia.org/wiki/SDF_Public_Access_Unix_System)
 and Perl. When I was in 10th grade I wrote a system for a Pawn Shop to
 keep track of redemption rates and more using Perl and MySQL.
 
