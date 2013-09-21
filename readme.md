@@ -110,8 +110,10 @@ B.S. Computer Science and Math
 
 ## Projects and Links
 
-[CPAN modules](http://search.cpan.org/~frew/): well tested, well
-documented, released code
+[CPAN modules](https://metacpan.org/author/FREW):
+[well tested](https://coveralls.io/r/frioux), [well
+documented](https://metacpan.org/module/DBIx::Class::Helper::Row::ProxyResultSetMethod),
+released code
 
 [github code](http://github.com/frioux): [experimental
 code](https://github.com/frioux/autopot) that may
