@@ -21,16 +21,16 @@ At Micro Technology Services Incorporated I've gotten involved in using
 more complex Perl frameworks, like Catalyst and DBIx::Class. Both of those
 I've used extensively to the point where I have contributed code to both.
 
-favorites perl catalyst dbix-class moose javascript  
-likes extjs ruby  
-dislikes java c# c c++
+*favorites* `perl catalyst dbix-class moose javascript`  
+*likes* `extjs ruby`  
+*dislikes* `java c# c c++`
 
 ## Experience
 
 Micro Technology Services Incorporated  
-Web Developer  
+Software Engineer/Architect  
 Aug 2008 - Current  
-perl apache mod-perl sql-server dbix-class catalyst cgi-application extjs
+`perl apache mod-perl sql-server dbix-class catalyst cgi-application extjs`
 
 * Initiated and switched from IIS to Apache because of
 [serious perl interop issues](http://stackoverflow.com/questions/188896/why-does-iis-crash-when-i-print-to-stderr-in-perl)
@@ -41,14 +41,16 @@ overall organization of projects in new projects.
 * Initiated and helped switch to DBIx::Class to promote code reuse and
 reduce dependence on SQL Server 
 
-Loma de Luz Programmer  
+Loma de Luz  
+Programmer  
 May 2007 - Aug 2007  
-c#
+`c#`
 
 * Initiated and designed a system to track inventory and inventory history.
 * Basic IT support.  
 
-Sterling Commerce Programmer  
+Sterling Commerce  
+Programmer  
 May 2006 - Aug 2006  
 java c# connectdirect
 
@@ -61,9 +63,9 @@ Java class.
 LeTourneau University  
 B.S. Computer Science and Math  
 2004 - 2008  
-regular-expressions object-orientation project-management
+`regular-expressions object-orientation project-management`
 
-* Senator, and later President Pro Tempore
+* Student Senator, and later President Pro Tempore
 * President of TEA (TEA Enthusiasts Association)
 * President of Math Club (We won first place in TX competition)
 * Worked on, and later headed up the TOME project.
