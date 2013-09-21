@@ -20,10 +20,11 @@ that I learned to do more complex Perl programming as well as lots of
 Javascript, HTML, CSS, and complex database interactions.
 
 At Micro Technology Services Incorporated I've gotten involved in using
-more complex Perl frameworks, like Catalyst and DBIx::Class. Both of those
-I've used extensively to the point where I have contributed code to both.  I
-convinced the company to start using version control with subversion and helped
-the switch to git when it was sufficiently mature for professional usage.
+more complex Perl frameworks, like the Catalyst web framework and the
+DBIx::Class ORM. Both of those I've used extensively to the point where
+I have contributed code to both.  I convinced the company to start using
+version control with subversion and helped the switch to git when it
+was sufficiently mature for professional usage.
 
 Since my initial hire as a web developer I have moved to an architectural
 role, taking the lead on designing a Duress/Mass Notification system
