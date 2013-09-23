@@ -100,12 +100,6 @@ B.S. Computer Science and Math
 * President of Math Club (We won first place in TX competition)
 * Worked on and later headed up the TOME project.
 
-# Tags
-
-*favorites* `Perl Catalyst DBIx::Class Moose JavaScript`  
-*likes* `ExtJS Ruby`  
-*dislikes* `Java C# C C++`
-
 ## Projects and Links
 
 [CPAN modules](https://metacpan.org/author/FREW):
