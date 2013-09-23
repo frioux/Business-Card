@@ -48,7 +48,7 @@ for performance and reliability.
 
  * `DBIx::Class`: Perl ORM
  * `Catalyst`: Perl Web Framework
- * `DBIx::Class::DeploymentHandler`: Database Deployment/Migration Tool
+ * *`DBIx::Class::DeploymentHandler`*: Database Deployment/Migration Tool
  * `DBIx::Class::Helpers`: Collection of useful extensions to `DBIx::Class`
  * Over 50 git conversions for a large variety of projects
 
@@ -58,7 +58,7 @@ Micro Technology Services Incorporated
 Software Engineer/Architect  
 Aug 2008 - Current  
 `Perl Apache mod_perl SQLServer DBIx::Class Catalyst CGI::Application ExtJS`
-Projects: Lynx (Mass Notification and Duress, Lead Developer), Aircraft Ducting
+Projects: *Lynx* (Mass Notification and Duress, Lead Developer), Aircraft Ducting
 MRP (Custom MRP, Lead Developer), many other projects as programmer
 
 * Took lead role of significant project and implemented a minimalist agile
