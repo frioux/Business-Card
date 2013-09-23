@@ -4,6 +4,10 @@ frioux@gmail.com
 314 Columbia Drive  
 Rockwall TX, 75032
 
+Languages: *Perl*, *Bash*, *Javascript*, *SQL*, Ruby, Java, C#, C++
+Skills: Web Based Applications, Turnkey Server Deployments, Optimizing and
+Structuring Legacy Code
+
 I love programming. I mostly do web development and have released numerous
 open source [modules](http://search.cpan.org/~frew) to make developing
 web apps easier.
@@ -36,25 +40,13 @@ used by most VA Hospitals and many schools across the country.  I am
 actively working towards the design of a masterless distributed server
 for performance and reliability.
 
-## Open Source
+## Selected Open Source Projects
 
-Starting in 2009 I began releasing open source modules on CPAN.
-I couldn't list all of my [contributions](https://github.com/frioux)
-or [modules](https://metacpan.org/author/FREW) here,
-but the most important are probably [my database deployment
-tool](https://metacpan.org/module/DBIx::Class::DeploymentHandler)
-(generic enough to have [a popular
-tool](https://metacpan.org/module/DBIx::Class::Migration)
-written on top of it), and [my set of ORM
-extensions](https://metacpan.org/release/DBIx-Class-Helpers).
-Since early 2012 I have released at least [one module a
-week](http://onceaweek.cjmweb.net/longest) on CPAN.
-
-In addition to producing useful modules for the
-community, I have performed at least 60 [git
-conversions](https://github.com/frioux/Git-Conversions/), done nearly 6 talks at
-conferences ([here are](www.presentingperl.org/yn2010/)
-[a few](https://www.youtube.com/watch?v=Vm_NlfHNVvg)).
+ * `DBIx::Class`: Perl ORM
+ * `Catalyst`: Perl Web Framework
+ * `DBIx::Class::DeploymentHandler`: Database Deployment/Migration Tool
+ * `DBIx::Class::Helpers`: Collection of useful extensions to `DBIx::Class`
+ * Over 50 git conversions for a large variety of projects
 
 ## Experience
 
