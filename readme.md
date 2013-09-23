@@ -8,6 +8,10 @@ Languages: *Perl*, *Bash*, *Javascript*, *SQL*, Ruby, Java, C#, C++
 Skills: Web Based Applications, Turnkey Server Deployments, Optimizing and
 Structuring Legacy Code
 
+LeTourneau University  
+B.S. Computer Science and Math  
+2004 - 2008
+
 I love programming. I mostly do web development and have released numerous
 open source [modules](http://search.cpan.org/~frew) to make developing
 web apps easier.
@@ -88,17 +92,6 @@ May 2006 - Aug 2006
 * Changed Java client to store configuration as XML instead of serialized
   Java class.
 * Created .NET configuration GUI.
-
-## Education
-
-LeTourneau University  
-B.S. Computer Science and Math  
-2004 - 2008  
-
-* Student Senator, and later President Pro Tempore
-* President of TEA (TEA Enthusiasts Association)
-* President of Math Club (We won first place in TX competition)
-* Worked on and later headed up the TOME project.
 
 ## Projects and Links
 
