@@ -54,6 +54,8 @@ Micro Technology Services Incorporated
 Software Engineer/Architect  
 Aug 2008 - Current  
 `Perl Apache mod_perl SQLServer DBIx::Class Catalyst CGI::Application ExtJS`
+Projects: Lynx (Mass Notification and Duress, Lead Developer), Aircraft Ducting
+MRP (Custom MRP, Lead Developer), many other projects as programmer
 
 * Took lead role of significant project and implemented a minimalist agile
   workflow leveraging DVCS, an issue tracker, and a QA cycle leading to much
