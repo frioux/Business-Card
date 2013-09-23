@@ -4,7 +4,7 @@ frioux@gmail.com
 314 Columbia Drive  
 Rockwall TX, 75032
 
-Languages: *Perl*, *Bash*, *Javascript*, *SQL*, Ruby, Java, C#, C++
+Languages: *Perl*, *Bash*, *Javascript*, *SQL*, Ruby, Java, C#, C++  
 Skills: Web Based Applications, Turnkey Server Deployments, Optimizing and
 Structuring Legacy Code
 
