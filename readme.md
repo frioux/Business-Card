@@ -1,4 +1,8 @@
 # Arthur Axel "fREW" Schmidt
+frioux@gmail.com  
+(228) 369-4492  
+314 Columbia Drive  
+Rockwall TX, 75032
 
 I love programming. I mostly do web development and have released numerous
 open source [modules](http://search.cpan.org/~frew) to make developing
